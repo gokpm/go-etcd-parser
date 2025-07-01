@@ -3,7 +3,7 @@ package parser
 import (
 	"strings"
 
-	"go.etcd.io/etcd/mvcc/mvccpb"
+	"go.etcd.io/etcd/api/v3/mvccpb"
 )
 
 // Parse converts etcd-style keys into a nested map structure

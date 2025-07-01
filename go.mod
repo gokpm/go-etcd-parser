@@ -2,7 +2,7 @@ module github.com/gokpm/go-etcd-parser
 
 go 1.24.4
 
-require go.etcd.io/etcd v3.3.27+incompatible
+require go.etcd.io/etcd/api/v3 v3.6.1
 
 require (
 	github.com/gogo/protobuf v1.3.2 // indirect
